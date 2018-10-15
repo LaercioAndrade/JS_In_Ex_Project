@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="=UTF-8">
+</head>
+<body>
+
+</body>
+</html>
+
+<script text="type/javascript">
+// Faça um programa para calcular o estoque Médio de uma peça, sendo que: Estoque Médio = (Quantidade_Minima + Quantidade_Máxima)/2
+
+	
+	var Quantidade_Minima = 3;
+	var Quantidade_Máxima = 10;
+	var EstoqueMedio =  (Quantidade_Minima + Quantidade_Máxima)/2;
+	
+	mostra ("O Estoque Médio é " + EstoqueMedio);
+	function mostra(value) {
+		document.write(value)
+	}
+
+	function pulaLinha() {
+		document.write("<br>")
+	}
+
+</script>	
